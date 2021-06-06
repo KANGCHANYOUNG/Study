@@ -33,9 +33,9 @@ var word ="hello"  => 변수 이름 앞에 var을 붙이면 좋다. 요즘 트�
  하지만 HTML은 한 번 표시되면 바뀌지 않는 정적인 언어이다. 즉 <body>  태그가 만들어지면, 저 style 속성  값을 바꿀 수 없다.
 
 6.css 기본 + 선택자
-css를 이용하면 웹페이지에 있는 요소들의 디자인을 바꿀 수 있 는데 이를 위해서는 바꾸고 싶은 태그에 style속성을 사용하면 된다.((<h1>Javascript<h1>))
+css를 이용하면 웹페이지에 있는 요소들의 디자인을 바꿀 수 있 는데 이를 위해서는 바꾸고 싶은 태그에 style속성을 사용하면 된다. <!-- (<h1>Javascript<h1> -->
 이렇게 하면 Javascript라는 글자가 나타나게 되는데 이때 글자의 색을 blue로 바꾸고 싶다면 다음과 같이 써주면 된다.
-((<h1 style="color:blue">Javascript<h1>))
+<!-- <h1 style="color:blue">Javascript<h1> -->
 이때 이 color:blue라는 코드가 바로 css입니다.
 index.css => import를 먼저 head에 박아준다. <link rel="stylesheet" href="index.css"> 
 css 내부에서 element를 만들때 해당 태그일때는 태그 이름만 선언 ex) h1{} ""일떄는 #을 붙인다.   <section id="hello">
