@@ -24,6 +24,40 @@ HTML 태그안에서 onclick 속성은 javascript 코드를 가지게 된다. on
  3. Console
 Console창에 alert("생각해보기") 쓰고 엔터 누르면 경고창이 뜬다.
 
+4. 변수와 대입 연산자 
+var word ="hello"  => 변수 이름 앞에 var을 붙이면 좋다. 요즘 트렌드는 const를 넣어준다.
+
+
+
+5. 웹 브라우저 backgroundcolor , 글씨 색깔 변경
+  <body style="background-color: blue; color: gray;">
+단순히 <body> 태그만 쓰는게 아닌   <body style="background-color: blue; color: gray;">
+이런식으로 <body> 태그에서 두번 째 줄과 같이 style을 지정해주면 바뀐다. style 속성에 있 는 간단한 코드를 css라고 부르며 
+  css은 디자인을 위한 언어이며 자바 스크립트랑 완전히 다른 언어이다..
+ 하지만 HTML은 한 번 표시되면 바뀌지 않는 정적인 언어이다. 즉 <body>  태그가 만들어지면, 저 style 속성  값을 바꿀 수 없다.
+
+6.   css 기본 + 선택자
+css를 이용하면 웹페이지에 있는 요소들의 디자인을 바꿀 수 있 는데 이를 위해서는 바꾸고 싶은 태그에 style속성을 사용하면 된다.
+<h1>Javascript<h1>
+이렇게 하면 Javascript라는 글자가 나타나게 되는데 이때 글자의 색을 blue로 바꾸고 싶다면 다음과 같이 써주면 된다.
+<h1 style="color:blue">Javascript<h1>
+이때 이 color:blue라는 코드가 바로 css입니다.
+index.css => import를 먼저 head에 박아준다. <link rel="stylesheet" href="index.css"> 
+css 내부에서 element를 만들때 해당 태그일때는 태그 이름만 선언 ex) h1{} ""일떄는 #을 붙인다.   <section id="hello">
+일 경우 #hello{} 클래스일 경우 . 을 붙혀준다. class는 중복될 수 있지만, id는 한 페이지에서는 딱 한번만 쓰이게 되는 것입니다.  
+  id > class > 태그 
+ 
+7. 제어할 태그를 선택할 때 사용할거 querySelector
+위에서 배운 내용은 이벤트와 페이지의 스타일일 바꾸는걸 배웠다. 이둘을 조합해서 어떤 이벤트가 발생했을 때 페이지의 스타일을 바꾸는 기능을 구현해야한다. 즉 이벤트가 발생했을 때 어떤 태그에 스타일이 지정될지 선택하는 작업이 필요하다.
+documnet.querySelector("body") 이 코드는 페이지 내에서 body라는 이름의 태그를 모두 선택하는 것이다. 만약 js라는 class를 가진 태그를 선택하고 싶다면 따옴표 사이에 .js를 쓰면 되고, first라는 id를 가진 태그를 선택하고 싶다면 #first라고 쓰면 된다.  실제 예시다.
+ document.querytSelector("body").style.backgroundColor='black'; => body 태그를 모두 고른 뒤, 여기에 스타일 을 적용하기 위해서
+  style이라고 써 주고, 여러 스타일 중에서도 배경색을 지정하기 위해서 backgroundColor라고 써 준것 입니다.
+이렇게 완성한 Javascript 코드를 이벤트가 일어날 때마다 실행하면 되는 것 이다. 예를 들어서 버튼을 클릭할 때 이러한 스타일 변화가 일어나도록 만드러면
+ 다음과 같다. 
+<input type="button" value="night" onclick="document.querySelector('body').style.backgroundColor='black';">
+  
+  
+
 
 
 
