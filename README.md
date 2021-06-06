@@ -4,8 +4,31 @@
  
  이클립스 프로젝트 생성
 
+이클립스 프로젝트 생성
+
 1. spring4_1_1을 복사후 이름 지정후 생성
 2. import후 톰캣 서버 환경설정(Web Modules ==> / )
+3. jar파일 넣기 
+commons-logging-1.1.1.jar
+gson-2.8.6.jar
+log4j-1.2.17.jar
+mybatis-3.5.6.jar
+mybatis-spring-2.0.6.jar
+nexacro17_server_license.xml
+nexacro17-xapi-1.0.jar
+ojdbc6.jar
+spring-aop-4.3.30.RELEASE.jar
+spring-beans-4.3.30.RELEASE.jar
+spring-context-4.3.30.RELEASE.jar
+spring-core-4.3.30.RELEASE.jar
+spring-expression-4.3.30.RELEASE.jar
+spring-jdbc-4.3.30.RELEASE.jar
+spring-jdbc-4.3.30.RELEASE (1).jar
+spring-tx-4.3.30.RELEASE.jar
+spring-tx-4.3.30.RELEASE (1).jar
+spring-web-4.3.30.RELEASE.jar
+spring-webmvc-4.3.30.RELEASE.jar
+---------------------------------jar파일 확인
 
 
 
@@ -20,6 +43,8 @@ PrefixID에 SvcURL , Type은 JSP, URL은 http://localhost:자기톰캣PORT번호
 연결하고자 하는 이클립스 프로젝트 WebContent로 지정한다. 
 
 3-1. Select the browser 체크 박스에서 크롬을 제외하고 다 비활성화 
+
+ 
 
  
 
