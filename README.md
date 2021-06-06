@@ -2,14 +2,30 @@
 
 #  21/06/05/넥사크로 보충
  
-  spring4_1_1을 nexa_test로 복사후 workspace80에 따로 만든후 넥사크로 프로젝트 생성
-  화면을 top/left로 생성 후 finsh
-  Form-top, Form-left에서 라벨에 텍스트를 넣은후 테스트
- (이후 목적 : 이클립스에 배포하는 과정)
- base -> file -> new -> form -> name 정하고 default로 설정후 완성 -> id : btn_sal로 정함 조회 버튼
- 버튼을 더블클릭하면 이벤트 처리로 간다. 	alert("조회 설정 성공");
-tool -> 제너레이트 -> 크롬만 설정후 nexa_test/webcontent로 경로 지정
-그 후 이클립스에서 실행 
+ 이클립스 프로젝트 생성
+
+1. spring4_1_1을 복사후 이름 지정후 생성
+2. import후 톰캣 서버 환경설정(Web Modules ==> / )
+
+
+
+
+-----------------------------넥사크로 이클립스 연동 환경설정
+1 넥사크로 프로젝트 생성   file --> new --> project
+
+2. Project 이름 밑에 있는 TypeDefinition --> service --> User Service에서 + 버튼 누른후 
+PrefixID에 SvcURL , Type은 JSP, URL은 http://localhost:자기톰캣PORT번호/     
+
+3. TOOLS -- > OPTIONS -> Project밑에 Generate에서 Generate Path  경로는 
+연결하고자 하는 이클립스 프로젝트 WebContent로 지정한다. 
+
+3-1. Select the browser 체크 박스에서 크롬을 제외하고 다 비활성화 
+
+ 
+
+
+
+강사님 설명==>
 http://docs.tobesoft.com/nexacro_17_ko  ==> 넥사크로 api  (help)
 PPT 4.화면 개발 실습 부분에서 디비 연동에 대한 설명이 들어가있다.
 4.4.5에 JSP 관련 
