@@ -1,5 +1,35 @@
 # Study
 
+#  21/06/06 html/css/js 
+1. Script 태그
+
+HTML의 태그 중 하나인 script 태그 안에는 Javascript 코드를 쓸 수 있다.
+<body>
+  <script>
+    document.write('hello, world!');
+  </script>
+</body>
+
+하지만 자바 스크립트로 쓴 코드는 동적이고 html은 정적이다 1+1일 경우 자바스크립트는 연산후 2를 출력하지만 html은 1+1을 그대로 출력한다.
+
+2. 이벤트(on Click)
+<input type="button" value="hi" onclick="alert('hi')">
+
+HTML 태그안에서 onclick 속성은 javascript 코드를 가지게 된다. onclick이 포함된 태그가 클릭되었을 떄 이 javascript코드에 따라서 웹 브라우저가
+동작하는건데 위에 코드에서 웹브라우저는 alrer("hi")라는 코드를 기억하고 있다가, 사용자가 클릭하면 이를 실행해준다. 
+이렇게 웹브라우저에서 일어난 사건을 이벤트(event)라고한다.
+
+ <input type="text" onchange="alert('changed')"> input type=> 웹브라우저에 띄우는 화면? on이 붙은것들 event라고 생각해서 사용자와 상호 작용가능하게 만듬
+ 
+ 3. Console
+Console창에 alert("생각해보기") 쓰고 엔터 누르면 경고창이 뜬다.
+
+
+
+
+
+    
+
 #  21/06/05/넥사크로 보충
  
  이클립스 프로젝트 생성
