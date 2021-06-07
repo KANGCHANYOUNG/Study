@@ -65,8 +65,23 @@ btn.addActionListener(new ActionListenenr({    @Override이다. 예외
 표준을 지키는 코딩을 할때는 선언부에 `use strict` let x = " "; 를 사용하는 것이 좋지만  외부 api를 사용하기엔 안좋다.
 
 new String(") match, search lastIndexOf, SubString(1,3)
+---------------------
+새글 - list 댓글 - read   bm_no 채번 bm_post 차수 bm_step 글순번
+ ui/ux (약속) -> 안전
+메인, 팝업
+결과처리(확인), 입력(수정), 비번입력, 목록 이런 것들을 고려해서 어떻게 처리할지 정해봐야한다.
 
-
+상세받기
+ 답글쓰기 /수정/삭제/목록/ 
+ writeForm#2 
+-----------------------
+HashMapBinder --> com.util --> spring지원 ->F/W ->프로시저 
+-> json / 출력 (out.print()) <%=%>  --> document.write() --> Front -End
+개발 패턴 action -> jsp,  jsp -> action ->jsp
+ git 관리 
+ 
+ 
+ 
 
 
 
