@@ -2,6 +2,31 @@
 
 #  21/06/07
 
+xxx.jsp - ui/ux - view 계층(넥,Flex)
+가급적 java로 구현해야 재사용성과 단위테스트에 유용하며 독립성이 강한 형태로 나아갈 수 있게 만든다.
+jsp가 되기 위해선 <%@apge%>가 기본이 되여야 하며 <head>부분에 css,js, jquery가 와야 한다. 공통 코드도 있어야 하며(include)로 있어야 한다.
+본문은 body 태그에서 진행이 되며 처리가 되기 위해선 DOM Tree가 완성이 되어야 한다. $(document).ready(function) {}); 이걸 작성했을 떄 Dom Tree작성과 일치
+$를 쓴다는거 자체가 jquery를 기반으로 실습을 한다고 생각하면 된다. 문서를 작성할때 document.write함수가 있다. document가 가르키는건 html문서 자체를 가르키는 함수이다.
+document.write("tag") 
+html문서 인터프리터 (기준) who? api에 따라 맞춰 나가야 한다. 
+ 
+Front Controller xxx.jsp HttpServelt 
+                 xxx.nhn DippatcherServlet"
+표준 서블릿은 의존적이며 spring boot은 의존적이지 않다. ->파라미터를 통해서 확인가능하고 req,res가 있어야만 응답페이지를 처리할 수 있다면 그것은 의존적이다. 
+ 의존적이라는 것은 프레임워크 사상에 위배되며 독립적이지 않다.(단위,통합 테스트, 팀플 영역에대한 독립성) 
+[Forward의 단점]
+* URL이 클라이언트 어플리케이션과 항상 일치하지 않음
+* 브라우저의 Refresh 버튼을 누를경우 정확하지 않은 요청이 발생할 수 있음
+* 이미지 상대경로 지정시 문제가 될 수 있음
+
+[Forward의 장점]
+* 서버에서 처리되므로 Redirect보다 더 나은 성능
+* 요청 Scope에 저장되어 있는 객체를 프리젠테이션 컴포넌트에 쉽게 이용가능 
+ 
+ 
+
+
+
 
 3교시 
 
@@ -36,13 +61,14 @@ btn.addActionListener(new ActionListenenr({    @Override이다. 예외
 - 두번째 매개변수는 입력 부분의 기본 값
 06/06에서 알 수 있듯이 script태그를 사용하면 html내부에서 자바스크립트를 사용할 수 있다.
 조건문 메커니즘은 자바와 비슷하나 변수선언에는 기본적으로 const를 사용하고, 재할당이 필요한 경우에 한정해 let 을 사용하는 것이 좋다.
+---------
+표준을 지키는 코딩을 할때는 선언부에 `use strict` let x = " "; 를 사용하는 것이 좋지만  외부 api를 사용하기엔 안좋다.
+
+new String(") match, search lastIndexOf, SubString(1,3)
 
 
 
 
-출처: https://gangzzang.tistory.com/entry/자바스크립트JavaScript-입력-prompt-함수-confirm-함수 [갱짱.study]
-
-출처: https://gangzzang.tistory.com/entry/자바스크립트JavaScript-입력-prompt-함수-confirm-함수 [갱짱.study]
 
 
 #  21/06/06 html/css/js 
