@@ -1,10 +1,25 @@
 # Study
+#  21/06/07/html/css
 
+&lt;는 <를 의미,  &gt; > 
+조건문은 기본적인 메커니즘은 자바와 동일
+리팩토링이란 비효울적인 코드를 효율적으로 만들어서 가독성을 높이고 유지보수가 쉽도록 만드는 것이다.
+id는 하나의 태그에만 적용될 수 있으므로 새롭게 만들어진 버튼에는 새로운 id값을 적용해줘야 한다.  
 
-#  21/06/07 js/html/css 
+배열 
+var fruits = ["apple", "banana"]; 
+document.write(fruits[0]); 배열 값 접근
+document.write(fruits.length); 배열 길이 
+fruits.push("coconut"); 배열에 값 추가 (맨뒤에)
 
-
-
+document.write('<li>1</li>');
+var i = 0;
+while (i < 3) {
+  document.write('<li>2</li>');
+  document.write('<li>3</li>');
+  i = i + 1;
+}
+document.write('<li>4</li>');
 
 
 #  21/06/07 수업
