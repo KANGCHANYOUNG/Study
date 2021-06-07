@@ -1,5 +1,50 @@
 # Study
 
+#  21/06/07
+
+
+3교시 
+
+![2](https://user-images.githubusercontent.com/78460496/120951889-dc443480-c784-11eb-889f-6b28b04f1066.JPG)
+
+![3](https://user-images.githubusercontent.com/78460496/120952461-0ba77100-c786-11eb-9d5c-cbe28ab05951.JPG)
+
+
+Dom에 대한 생성, 시점이 우리가 얘기하는  Lifecycle이 연관이 있다. 
+함수는 괄호로 생성하고 세미콜론은 생략하면 된다. 이런것들이 이제 내부에 올 수도 있고 외부에 있는 함수를 호출 할 수 있다.
+아까 test2 undefined 같은 오류들을 조심해야 한다. easy ui를 쓸 때는 jQuery기반이고 직접접근이 아니라 $표시를 이용해 접근한다.
+$(document).ready(function({ --> 익명 함수이다. 
+});     
+$("# dg_emp").datagrid(); -> 생성자
+js기반은 기본적으로 오브젝트가 들어가 있다.
+
+![4](https://user-images.githubusercontent.com/78460496/120952503-24b02200-c786-11eb-80db-e3a06089a0d5.JPG)
+
+
+btn.addActionListener(new ActionListenenr({    @Override이다. 예외
+ public void actionPerformed(Action a)
+});
+자바 스크립트 조건문 
+
+ prompt() 함수 
+ - 문자열을 입력할 때 사용
+
+- 숫자를 입력 받아야 하는 경우는 문자열로 입력 받은 뒤 변환
+
+- 첫번째 매개변수는 입력 창에서 띄워줄 메시지
+
+- 두번째 매개변수는 입력 부분의 기본 값
+06/06에서 알 수 있듯이 script태그를 사용하면 html내부에서 자바스크립트를 사용할 수 있다.
+조건문 메커니즘은 자바와 비슷하나 변수선언에는 기본적으로 const를 사용하고, 재할당이 필요한 경우에 한정해 let 을 사용하는 것이 좋다.
+
+
+
+
+출처: https://gangzzang.tistory.com/entry/자바스크립트JavaScript-입력-prompt-함수-confirm-함수 [갱짱.study]
+
+출처: https://gangzzang.tistory.com/entry/자바스크립트JavaScript-입력-prompt-함수-confirm-함수 [갱짱.study]
+
+
 #  21/06/06 html/css/js 
 1. Script 태그
 
