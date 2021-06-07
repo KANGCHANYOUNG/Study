@@ -21,6 +21,16 @@ while (i < 3) {
 }
 document.write('<li>4</li>');
 
+이제 이 while문 안에 각각의 스타일을 지정하는 코드를 넣어주도록 합시다. 먼저 alist의 i번째 원소를 가져오면 되겠죠. 그리고 이렇게 가져온 태그의 스타일을 지정해주면 됩니다. 마지막에 i에 1을 더해주는 것도 잊으면 안된다.
+
+var i = 0;
+while (i < alist.length) {
+  alist[i].style.color = 'powderblue';
+  i = i + 1;
+}
+querySelectorAll --> 다수의 태그를 사용하고 싶다면
+querySelector -> 하나의 태그만 알려준다.
+
 
 #  21/06/07 수업
  
