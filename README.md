@@ -1,4 +1,39 @@
 # Study
+
+#  21/06/08
+
+(1교시)
+
+![1](https://user-images.githubusercontent.com/78460496/121105538-428d8d80-c83f-11eb-8367-54c50510b0c8.JPG)
+
+객체는 크게보면 3가지 1. 내장객체 -> 사용자 객체포함 --> String, Array, Date(Ajax에서) --> 중첩 사용가능 
+window.loaction.href = " ";
+      (내장 객체)(이동)
+{local} switch문이나 for문안에서 int i로 정의했을 경우 {}밖에서는 정의가 안되는거랑 비슷한 메커니즘  
+브라우저 문제는 크롬을 무조건 사용해야 한다.
+참조변수(인스턴스변수) = function(){} 레퍼런스 타입은 react같은 경우 적극적으로 사용됨 구조체(체인닝) 
+var tv = new Object -->tv.channel = 10 tv.power = true or false 이런식으로 사용 가능
+
+![2](https://user-images.githubusercontent.com/78460496/121105827-cba4c480-c83f-11eb-809d-6bb7f70e4cf8.JPG)
+
+
+tv.info = function(){      --> 패턴1
+ this.color // 이러한 경우this는 tv라는 객체를 바라본다.
+ this.channel
+} 
+var car = {  --> 패턴2
+         color : "black", price : 50000000, info : function(){  } --> 보통 이러한 패턴이다.
+          };
+
+
+
+
+2. 브라우저 객체(BOM), 3. 문서 객체(DOM) 
+
+
+
+
+
 #  21/06/07/html/css
 
 &lt;는 <를 의미,  &gt; > 
