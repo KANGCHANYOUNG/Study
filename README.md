@@ -2,7 +2,7 @@
 
 #  21/06/08
 
-(1교시)
+(1교시) typescript로 넘어가는 과정!
 
 ![1](https://user-images.githubusercontent.com/78460496/121105538-428d8d80-c83f-11eb-8367-54c50510b0c8.JPG)
 
@@ -26,10 +26,44 @@ tv.info = function(){      --> 패턴1
 var car = {  --> 패턴2
          color : "black", price : 50000000, info : function(){  } --> 보통 이러한 패턴이다.
           };
+---------------실습
+spring 4_1_1  code.으로 열고 ch03 만듬 -> pattern1.js파일 만듬 -> 
+![3](https://user-images.githubusercontent.com/78460496/121106556-35719e00-c841-11eb-99f9-a7192b2fa99d.JPG)
+cmd에서도 사용은 가능하지만 비효율적
+
+스튜디오코드 내에서는 node 파일이름.js로 터미널로 실행이 가능하다! 
+
+2교시
+
+호이스팅(hoisting) : 함수 안에 있는 선언들을 모두 끌어올려서 해당 함수 유효 범위의 최상단에 선언하는 것을 말한다.
+window <- 최상위 객체 
+document라는 내장 객체 -> 그아래 html -->  그 아래 첫째 아들 head 둘째 아들 body --> body는 화면에 출력, head ->meta (view 포트, 인코딩, 호이스팅 등등..)를 처리한다.
+body쪽에 script가 있다 하더라도 head쪽으로 끌어올려서 --> 호이스팅(hoisting)
+절차지향적은 철저하게 순서 중심이다. document is not defined -->Dom tree가 없어! window 바로 직계 자녀임
+
+호이스팅(hoisting) : 함수 안에 있는 선언들을 모두 끌어올려서 해당 함수 유효 범위의 최상단에 선언하는 것을 말한다.
+일반 함수 정의방식과 익명 함수 선언 방식의 차이점
+일반 함수 정의는 함수 호출 시 호이스팅(hoisting) 기술을 지원 합니다.
+그러나 익명 함수 선언 참조 방식은 호이스팅을 지원하지 않습니다.
+호이스팅을 적용하면 함수 정의문 보다 호출문이 먼저 나와도 함수 정의문을 
+끌어 올려서 함수를 호출 합니다.
+
+Template literals : 템플릿 리터럴은 내장된 표현식을 허용하는 문자열 리터럴입니다. 여러 줄로 이뤄진 문자열과 문자 보관기능을 사용할 수 있습니다
+https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Template_literals
 
 
+![5](https://user-images.githubusercontent.com/78460496/121111595-217e6a00-c84a-11eb-8f3e-320b006c489b.JPG)
+
+Expression interpolation(표현식 삽입법) 
+
+3교시
+
+let color = ["orange", "red", "green", "aqua"]; //배열형태는 [] Object 형태는{}
+
+getElementById  : 메서드는 주어진 문자열과 일치하는 id 속성을 가진 요소를 찾고, 이를 나타내는 Element 객체를 반환합니다.
 
 
+![6](https://user-images.githubusercontent.com/78460496/121116015-dae03e00-c850-11eb-9ba9-59bfcd3f9370.JPG)
 
 
 
