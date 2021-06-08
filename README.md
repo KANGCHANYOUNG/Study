@@ -64,10 +64,36 @@ getElementById  : 메서드는 주어진 문자열과 일치하는 id 속성을 
 
 
 ![6](https://user-images.githubusercontent.com/78460496/121116015-dae03e00-c850-11eb-9ba9-59bfcd3f9370.JPG)
+-------------------------
+5교시 게시판 만들기
+![8](https://user-images.githubusercontent.com/78460496/121131837-4f27db00-c86b-11eb-9d9e-57092392e4cc.JPG)
 
 
+UI/UX  O|X --> UI/UX없이 테스트 할 수 있냐? 없냐? 애매한데? 애매한사람이 제일 나쁜 사람
+HOW ? -> 쿼리 스트링 (?) &연산자  
+ PostMan         get(제약조건) -> 
+ -->단위 테스트  post 
+ parameter , , ,   ...Arrry
+파라미터로 처리(상수_ --> const final prototupe
+
+WHERE?
+
+데이터 JDBC 기준, 경우의수  , 문제해결능력
+개발하는데 다른일 하는 것 비동기 처리 
+AJAX -> REACT 
+
+ORM 솔루션-> JDO HIBERRATE MYBATIS
+Insert(id , p)
+insert into  M()  Values ()    배달사고 주의 
+insert       S()  Values ()
+응답에 중요한건 리턴타입 --> 유지 -->forward -->request, (sendRedirect쓰면 맞아야한다.) 
+http://blog.naver.com/PostView.nhn?blogId=seotaji&logNo=80165579691
+forward와, Redirect 차이를 모르면 공부안한사람 
+
+![9](https://user-images.githubusercontent.com/78460496/121132760-80ed7180-c86c-11eb-9599-15eaa45c1e70.JPG)
 
 
+![10](https://user-images.githubusercontent.com/78460496/121133167-fbb68c80-c86c-11eb-8359-7c8e84734c8d.JPG)
 
 #  21/06/07/html/css
 
