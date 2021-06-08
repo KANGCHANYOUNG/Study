@@ -95,6 +95,61 @@ forward와, Redirect 차이를 모르면 공부안한사람
 
 ![10](https://user-images.githubusercontent.com/78460496/121133167-fbb68c80-c86c-11eb-8359-7c8e84734c8d.JPG)
 
+6교시
+
+![11](https://user-images.githubusercontent.com/78460496/121135206-3b7e7380-c86f-11eb-9d7b-18ff60d122cb.JPG)
+outer조인을 생각하면 보는 세상이 다른 사람 
+
+desc board_master2019
+
+desc board_sub2019
+
+![12](https://user-images.githubusercontent.com/78460496/121136507-b3996900-c870-11eb-92a1-f605d01bb754.JPG)
+
+조회수 그룹번호는 0 Default값 
+
+------- --> 컬럼수 만큼 있어야지 뭘 물어? 이렇게 안하려면 로직에서 map에다 다 박던지; dao에서 하지말고
+xxxx.sp4?bm_no=101
+            &bm_title= 게시판 연습  --> 컬럼수 만큼 있어야지 뭘 물어? 이렇게 안하려면 로직에서 map에다 다 박던지; dao에서 하지말고
+             &bm_writer= 이순신
+                &bm_content= 내용
+                    &bm_date= 20121-06-08
+                  &bm_hit= 0
+                     &bm_group= 0  bm_no처럼 채번해야 된다.
+                     &bm_pos = 0 원글이면 0 1차 댓글이면 1, 1차 댓글에 대한 공격글이면 2가됨
+                     &bm_step = 0
+                     &bm_pw= 123
+                     &bm_email= 이메일 연습
+
+/board/boardInsert.sp4?bm_no=101
+            &bm_title= 게시판 연습  
+             &bm_writer= 이순신
+                &bm_content= 내용
+                    &bm_date= 20121-06-08
+                  &bm_hit= 0
+                     &bm_group= 0  bm_no처럼 채번해야 된다.
+                     &bm_pos = 0 원글이면 0 1차 댓글이면 1, 1차 댓글에 대한 공격글이면 2가됨
+                     &bm_step = 0
+                     &bm_pw= 123
+                     &bm_email= 이메일 연습
+
+
+INSERT INTO board_maseter(bm_no, bm_title, bm_writer, bm_content
+                          ,bm_date ,bm_hit, bm_group, bm_pos, bm_step
+                          ,bm_email, bm_pw)
+ 
+ VALUES(#{bm_no},#{bm_title}, #{bm_writer}
+ 
+VALUES(SELECT 문.....) 
+
+
+                    
+                    
+
+
+
+
+
 #  21/06/07/html/css
 
 &lt;는 <를 의미,  &gt; > 
