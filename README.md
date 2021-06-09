@@ -71,15 +71,12 @@ https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Optiona
 
 5교시
 
-desc board_master2019
+![11](https://user-images.githubusercontent.com/78460496/121309908-b57d2e00-c93d-11eb-9d36-6c021638092c.JPG)
+![12](https://user-images.githubusercontent.com/78460496/121309897-b3b36a80-c93d-11eb-9e75-d3a701345243.JPG)
+![13](https://user-images.githubusercontent.com/78460496/121309902-b44c0100-c93d-11eb-99f9-4381d7e1eafa.JPG)
+![14](https://user-images.githubusercontent.com/78460496/121309903-b4e49780-c93d-11eb-8aa0-d20ea2d90dc4.JPG)
+![15](https://user-images.githubusercontent.com/78460496/121309906-b4e49780-c93d-11eb-99d6-38c86398e272.JPG)
 
-SELECT NVL ((SELECT /*+index_desc(board_master2019 BM_NO_PK)*/ bm_no
-                 FROM board_master2019
-                  WHERE rownum=1),0)+1 bm_no FROM dual
-                
-SELECT  /*+index_desc(board_master2019 BM_NO_PK)*/ bm_no
-                 FROM board_master2019
-                  WHERE rownum=1       
 
 
 
