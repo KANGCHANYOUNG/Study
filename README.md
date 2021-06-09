@@ -53,6 +53,17 @@ package.json -> json형태로 file이 관리 되어가고 있다.
 yarn.lock ->yarn 관리
 
 
+books 상태 바뀔떄 마다 render()라는 함수 호출
+
+
+주소번지를 넣으려면 {}   
+
+기본값 매개변수
+
+Optional chaining
+
+https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Optional_chaining
+
 #  21/06/08
 
 (1교시) typescript로 넘어가는 과정!
