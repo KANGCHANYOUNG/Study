@@ -68,6 +68,22 @@ Optional chaining
 
 https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Optional_chaining
 
+
+5교시
+
+desc board_master2019
+
+SELECT NVL ((SELECT /*+index_desc(board_master2019 BM_NO_PK)*/ bm_no
+                 FROM board_master2019
+                  WHERE rownum=1),0)+1 bm_no FROM dual
+                
+SELECT  /*+index_desc(board_master2019 BM_NO_PK)*/ bm_no
+                 FROM board_master2019
+                  WHERE rownum=1       
+
+
+
+
 #  21/06/08
 
 (1교시) typescript로 넘어가는 과정!
