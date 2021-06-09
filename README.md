@@ -8,15 +8,19 @@ https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Object_
 
 ![2](https://user-images.githubusercontent.com/78460496/121275872-88faef00-c908-11eb-9906-4486ead47be4.JPG)
 
-키값과 value과 일치하면 생략할 수 있다. const object2 = {a: a, b:b, c : c,}; const object3 = {a, b, c};
+키값과 value과 일치하면 생략할 수 있다. 
+const object2 = {a: a, b:b, c : c,}; const object3 = {a, b, c};
 
 <Books book ={book}/>  
 
 ![1](https://user-images.githubusercontent.com/78460496/121275610-1722a580-c908-11eb-8bff-c1342f51e952.JPG)
 불변 유무
 
+
 var를 쓰게되면 전역변수와 지역변수 경계가 없고 좌우중괄호 경계가 없어진다. 
 ![3](https://user-images.githubusercontent.com/78460496/121276630-f3605f00-c909-11eb-98a8-70917e09837e.JPG)
+
+
 이렇듯 key값 value 값이 일치하면 생략할 수 있다.
 
 
