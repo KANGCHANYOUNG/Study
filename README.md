@@ -29,7 +29,28 @@ https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Destruc
 ![4](https://user-images.githubusercontent.com/78460496/121279562-b72ffd00-c90f-11eb-8a25-ec28e38ac3c6.JPG)
 https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array api 참고
 
+전개구문 api
+https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Spread_syntax
 
+
+![5](https://user-images.githubusercontent.com/78460496/121280915-0414d300-c912-11eb-852c-9f35c1b7988d.JPG)
+
+3교시
+
+![7](https://user-images.githubusercontent.com/78460496/121284438-d03cac00-c917-11eb-8a35-1e3540a420ae.JPG)
+
+![8](https://user-images.githubusercontent.com/78460496/121284918-80aab000-c918-11eb-851b-600f24923584.JPG)
+
+spread syntax 배열을 만들거나 복사해온다. ...을 붙힌다. 
+
+
+app.jsx에서 이벤트 처리를 담당하게 하자.
+book -app 밑에 node-moduels  그 밑에  
+public -> index.html -> index.jsp 이미지에 대한 정보가 여기로 배치된다. -> div id='root'면 렌더링이 여기서부터 시작한다고 보면된다.
+                             components --> book, books                  
+src
+package.json -> json형태로 file이 관리 되어가고 있다.
+yarn.lock ->yarn 관리
 
 
 #  21/06/08
@@ -82,6 +103,9 @@ body쪽에 script가 있다 하더라도 head쪽으로 끌어올려서 --> 호�
 
 Template literals : 템플릿 리터럴은 내장된 표현식을 허용하는 문자열 리터럴입니다. 여러 줄로 이뤄진 문자열과 문자 보관기능을 사용할 수 있습니다
 https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Template_literals
+
+![6](https://user-images.githubusercontent.com/78460496/121283716-8ef7cc80-c916-11eb-86a7-3477165fa6cc.JPG)
+
 
 
 ![5](https://user-images.githubusercontent.com/78460496/121111595-217e6a00-c84a-11eb-8f3e-320b006c489b.JPG)
