@@ -84,6 +84,44 @@ http://localhost:8000/board/jsonGetBoardList.sp4
 
 출력하게 된다.
 
+--------------
+5교시
+
+넥사크로,안드로이드 -> xml기반
+
++ 파이어베이스 연계 
+
+1.ready( )  --> xxx.sp4
+
+2.버튼   -->  xxx.jsp
+       Event xxx.sp4 -> js    Tag로는 안된다!
+     
+  조건 검색 -> 파라미터를 넘겨야 한다. 2번과 가깝다. Tag로 처리할건지 js로 처리할건지..고민하지말고 js
+  
+  
+  
+  ![7](https://user-images.githubusercontent.com/78460496/121473158-318a7b00-c9fd-11eb-8c4c-7d955fd2cd8c.JPG)
+
+  
+  datagrid를 부른다.  
+  <table class = "클래스이름"  easyui-datagrid
+  비동기로 처리하면 ajax
+         
+  <script type"textjavascript
+  $(document).ready()는 문서가 준비되면 매개변수로 넣은 콜백 함수를 실행하라는 의미입니다.
+  
+  <bean id class
+          <property name= " " ref = "id"
+            
+          xml이라 문법이 다르다 tag와tag사이에 문법이 다르다.
+
+
+        
+          
+          
+          
+      
+  
 
 
 
