@@ -56,7 +56,12 @@ $('#dg_board').datagrid --> object --> () 생성자 --> 구현( {}을 의미 이
 부적잡한 식별자 뜨면 xml 확인 ->board.xml
 부적절한 열 유형 -->sql
 
+table id="dg_board" class="easyui-datagrid" data-options="title:'게시판', toolbar:'#tb_board'" style="width: 1000px; height: 350px">
 
+구분자는 콜론
+열거형 연산자
+바깥쪽에는 더블 ""
+안쪽은 싱글 ''
 
 
 #  21/06/09
