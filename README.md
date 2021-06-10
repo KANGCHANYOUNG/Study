@@ -211,8 +211,7 @@ https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Optiona
 
 (1교시) typescript로 넘어가는 과정!
 
-![1](https://user-images.githubusercontent.com/78460496/121105538-428d8d80-c83f-11eb-8367-54c50510b0c8.JPG)
-
+![1](https://user-images.githubusercontent.com/78460496/121476733-fcccf280-ca01-11eb-87e9-065484a651a0.JPG)
 객체는 크게보면 3가지 1. 내장객체 -> 사용자 객체포함 --> String, Array, Date(Ajax에서) --> 중첩 사용가능 
 window.loaction.href = " ";
       (내장 객체)(이동)
@@ -223,8 +222,7 @@ window.loaction.href = " ";
 참조변수(인스턴스변수) = function(){} 레퍼런스 타입은 react같은 경우 적극적으로 사용됨 구조체(체인닝) 
 var tv = new Object -->tv.channel = 10 tv.power = true or false 이런식으로 사용 가능
 
-![2](https://user-images.githubusercontent.com/78460496/121105827-cba4c480-c83f-11eb-809d-6bb7f70e4cf8.JPG)
-
+![2](https://user-images.githubusercontent.com/78460496/121476752-00f91000-ca02-11eb-876a-b63a5f0c24e2.JPG)
 
 tv.info = function(){      --> 패턴1
  this.color // 이러한 경우this는 tv라는 객체를 바라본다.
@@ -235,8 +233,7 @@ var car = {  --> 패턴2
           };
 ---------------실습
 spring 4_1_1  code.으로 열고 ch03 만듬 -> pattern1.js파일 만듬 -> 
-![3](https://user-images.githubusercontent.com/78460496/121106556-35719e00-c841-11eb-99f9-a7192b2fa99d.JPG)
-cmd에서도 사용은 가능하지만 비효율적
+![3](https://user-images.githubusercontent.com/78460496/121476761-048c9700-ca02-11eb-91b0-f1e184888d9a.JPG)cmd에서도 사용은 가능하지만 비효율적
 
 스튜디오코드 내에서는 node 파일이름.js로 터미널로 실행이 가능하다! 
 
@@ -258,12 +255,10 @@ body쪽에 script가 있다 하더라도 head쪽으로 끌어올려서 --> 호�
 Template literals : 템플릿 리터럴은 내장된 표현식을 허용하는 문자열 리터럴입니다. 여러 줄로 이뤄진 문자열과 문자 보관기능을 사용할 수 있습니다
 https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Template_literals
 
-![6](https://user-images.githubusercontent.com/78460496/121283716-8ef7cc80-c916-11eb-86a7-3477165fa6cc.JPG)
+![6](https://user-images.githubusercontent.com/78460496/121476810-12421c80-ca02-11eb-8d70-50a033e6e2c5.JPG)
 
 
-
-![5](https://user-images.githubusercontent.com/78460496/121111595-217e6a00-c84a-11eb-8f3e-320b006c489b.JPG)
-
+![5](https://user-images.githubusercontent.com/78460496/121476834-1837fd80-ca02-11eb-9bba-0fd5203174ca.JPG)
 Expression interpolation(표현식 삽입법) 
 
 3교시
@@ -276,8 +271,7 @@ getElementById  : 메서드는 주어진 문자열과 일치하는 id 속성을 
 ![6](https://user-images.githubusercontent.com/78460496/121116015-dae03e00-c850-11eb-9ba9-59bfcd3f9370.JPG)
 -------------------------
 5교시 게시판 만들기
-![8](https://user-images.githubusercontent.com/78460496/121131837-4f27db00-c86b-11eb-9d9e-57092392e4cc.JPG)
-
+![8](https://user-images.githubusercontent.com/78460496/121476852-1bcb8480-ca02-11eb-905a-564076654751.JPG)
 
 UI/UX  O|X --> UI/UX없이 테스트 할 수 있냐? 없냐? 애매한데? 애매한사람이 제일 나쁜 사람
 HOW ? -> 쿼리 스트링 (?) &연산자  
@@ -300,22 +294,20 @@ insert       S()  Values ()
 http://blog.naver.com/PostView.nhn?blogId=seotaji&logNo=80165579691
 forward와, Redirect 차이를 모르면 공부안한사람 
 
-![9](https://user-images.githubusercontent.com/78460496/121132760-80ed7180-c86c-11eb-9599-15eaa45c1e70.JPG)
+![9](https://user-images.githubusercontent.com/78460496/121476873-1f5f0b80-ca02-11eb-8465-444bafb97510.JPG)
 
-
-![10](https://user-images.githubusercontent.com/78460496/121133167-fbb68c80-c86c-11eb-8359-7c8e84734c8d.JPG)
-
+![10](https://user-images.githubusercontent.com/78460496/121476884-22f29280-ca02-11eb-85be-7744436cc45a.JPG)
 6교시
 
-![11](https://user-images.githubusercontent.com/78460496/121135206-3b7e7380-c86f-11eb-9d7b-18ff60d122cb.JPG)
+![11](https://user-images.githubusercontent.com/78460496/121476890-2554ec80-ca02-11eb-96cc-1a588ff1b814.JPG)
+
 outer조인을 생각하면 보는 세상이 다른 사람 
 
 desc board_master2019
 
 desc board_sub2019
 
-![12](https://user-images.githubusercontent.com/78460496/121136507-b3996900-c870-11eb-92a1-f605d01bb754.JPG)
-
+![12](https://user-images.githubusercontent.com/78460496/121476911-2c7bfa80-ca02-11eb-8e86-f220e05cadbb.JPG)
 조회수 그룹번호는 0 Default값 
 
 ------- --> 컬럼수 만큼 있어야지 뭘 물어? 이렇게 안하려면 로직에서 map에다 다 박던지; dao에서 하지말고
@@ -423,10 +415,8 @@ Front Controller xxx.jsp HttpServelt
 
 3교시 
 
-![2](https://user-images.githubusercontent.com/78460496/120951889-dc443480-c784-11eb-889f-6b28b04f1066.JPG)
-
-![3](https://user-images.githubusercontent.com/78460496/120952461-0ba77100-c786-11eb-9d5c-cbe28ab05951.JPG)
-
+![2](https://user-images.githubusercontent.com/78460496/121476668-eaeb4f80-ca01-11eb-8154-ebe09e777fea.JPG)
+![3](https://user-images.githubusercontent.com/78460496/121476641-e4f56e80-ca01-11eb-8220-25938099b9c9.JPG)
 
 Dom에 대한 생성, 시점이 우리가 얘기하는  Lifecycle이 연관이 있다. 
 함수는 괄호로 생성하고 세미콜론은 생략하면 된다. 이런것들이 이제 내부에 올 수도 있고 외부에 있는 함수를 호출 할 수 있다.
@@ -436,7 +426,7 @@ $(document).ready(function({ --> 익명 함수이다.
 $("# dg_emp").datagrid(); -> 생성자
 js기반은 기본적으로 오브젝트가 들어가 있다.
 
-![4](https://user-images.githubusercontent.com/78460496/120952503-24b02200-c786-11eb-80db-e3a06089a0d5.JPG)
+![4](https://user-images.githubusercontent.com/78460496/121476624-de66f700-ca01-11eb-80c2-f22ac4094db1.JPG)
 
 
 btn.addActionListener(new ActionListenenr({    @Override이다. 예외
@@ -549,7 +539,7 @@ documnet.querySelector("body") 이 코드는 페이지 내에서 body라는 이�
 3. jar파일 넣기 
 
 ---------------------------------jar파일 확인
-![jar](https://user-images.githubusercontent.com/78460496/120917445-5378ba80-c6ea-11eb-8ebd-2677dc2b0cd1.JPG)
+![jar](https://user-images.githubusercontent.com/78460496/121476506-baa3b100-ca01-11eb-84b7-6cccbb29eb9d.JPG)
 
 
 
