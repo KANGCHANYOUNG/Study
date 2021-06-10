@@ -18,7 +18,7 @@
  자바문법으론    out.print("")
  개행 처리 시 ln은 의미가 없다 <br>쓴다   
  처리할때 out.print("<br>") 
-<%=%>쓴다(내장객체이기에) ;을 쓰지 않는다
+ ((<%=%> )))쓴다(내장객체이기에) ;을 쓰지 않는다
 
 
 html은정적만 올수있다    fetch하고 그대로 처리  쿠키 -> local   
@@ -65,6 +65,23 @@ table id="dg_board" class="easyui-datagrid" data-options="title:'게시판', too
 열거형 연산자
 바깥쪽에는 더블 ""
 안쪽은 싱글 ''
+
+4교시
+https://www.jeasyui.com/documentation/index.php#
+
+url:'datagrid_data.json' 
+http://localhost:8000/board/jsonGetBoardList.sp4
+
+----------------
+![4](https://user-images.githubusercontent.com/78460496/121470355-0e5dcc80-c9f9-11eb-8561-1e00c8d076dc.JPG)
+조회 버튼을 누르면 id ="btn_sel"을 타게되어 
+![5](https://user-images.githubusercontent.com/78460496/121470497-4533e280-c9f9-11eb-9f94-734903c27998.JPG)
+여기서 메소드를 부른후
+![6](https://user-images.githubusercontent.com/78460496/121470555-5b41a300-c9f9-11eb-9d25-248fbfccdea8.JPG)
+
+
+
+
 
 
 #  21/06/09
