@@ -43,9 +43,20 @@ let a = "<%= %>";
   자바스크립트   = 익스프레션(아빠가 java)
   client       치환     server 
 
+  3교시
   
-  
-  
+
+(#dg_board)(#)이 오면 유니크 자바에선 protected  erd에선 PK 
+DOM - hoisting 순서(위치)
+$('#dg_board').datagrid --> object --> () 생성자 --> 구현( {}을 의미 이 영역은 실행문이 오는 자리이다.  ) --> 메소드, event  
+
+1. function - () {}
+2. 이름 = function(){}
+
+부적잡한 식별자 뜨면 xml 확인 ->board.xml
+부적절한 열 유형 -->sql
+
+
 
 
 #  21/06/09
