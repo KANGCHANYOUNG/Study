@@ -74,11 +74,15 @@ http://localhost:8000/board/jsonGetBoardList.sp4
 
 ----------------
 ![4](https://user-images.githubusercontent.com/78460496/121470355-0e5dcc80-c9f9-11eb-8561-1e00c8d076dc.JPG)
-조회 버튼을 누르면 id ="btn_sel"을 타게되어 
+조회 버튼을 누르면 id ="btn_sel"을 타게된다.
+
 ![5](https://user-images.githubusercontent.com/78460496/121470497-4533e280-c9f9-11eb-9f94-734903c27998.JPG)
-여기서 메소드를 부른후
+
+여기서 메소드를 부른다.
+
 ![6](https://user-images.githubusercontent.com/78460496/121470555-5b41a300-c9f9-11eb-9d25-248fbfccdea8.JPG)
 
+출력하게 된다.
 
 
 
