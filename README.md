@@ -29,7 +29,18 @@ Git push
 
 
 
+넥사크로
 
+header.jsp         @include와   jsp:include차이를 알아야 한다. 화면을 정의할떄 인증, 권한등 다양하지만 미묘한 차이가 있다. 
+
+header                   easyui --> bootstrap ? 으로 생각해봐라
+
+footer 
+
+easyui 에 속지를 넣었다. 삭제 ->비번 비교  a_b_jsp
+
+
+                        
 
 
 
