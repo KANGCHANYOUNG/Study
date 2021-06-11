@@ -1,5 +1,36 @@
 # Study
 
+#  21/06/11
+
+웹레포에 있는 자료를 로컬레포에 관리하면서 동기화 하고 있다고 가정하고 시작한다.
+이전까지 상황정리
+첫째 이클립스가 바라보는 workspace안에 프로젝트 폴더에 .git숨김 파일이 있어야 한다고 생각했었다.
+만일 플젝명이 dev_java라면 이 폴더에서 git init 을 실행하여 .git숨김파일이 생성 되어야 된다 
+요따구로 생각했었던 것 이다.  떵이다.
+로컬 컴터에 lab_spring4라는 폴더를 만들고 여기서 .git숨김파일 즉 git 초기화를 하였다.
+그리고 그 안에 수업시간에 진행하는 프로젝트 폴더를 통째로 복사하여 붙여 넣고
+Git add *
+Git commit -m "메시지"
+Git pull
+Git push
+이런 순서로 로컬 레포에서 프로젝트 소스들을 관리하다가 
+만일 이 프로젝트이름 중 이클립스로 가져와서 작업을 계속하거나 수업자료를 작성하여 공유하고 
+싶을 때는
+    1. Import  ->  git -> Projects from Git을 선택한다.
+    2. Existing local repository를 선택하고 Next를 한 후  lab_spring4를 선택하고 Next를 한다.
+    3. Wizard for project import에서 첫번째 import existing Eclipse projects가 선택되었는지 확인함.
+    4. 목록 중에서 원하는 플젝명을 선택하고 Next하면 그 후에는 Finish 하면 끝이다.
+이렇게 한 후 소스를 관리하면 깃 허브와 동기화 되어 관리할 수 있다
+
+
+
+
+
+
+
+
+
+
 #  21/06/10
 
 1교시
