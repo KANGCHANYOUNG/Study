@@ -198,9 +198,17 @@ https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Optiona
 5교시
 
 ![11](https://user-images.githubusercontent.com/78460496/121309908-b57d2e00-c93d-11eb-9d36-6c021638092c.JPG)
+
+
 ![12](https://user-images.githubusercontent.com/78460496/121309897-b3b36a80-c93d-11eb-9e75-d3a701345243.JPG)
+
+
 ![13](https://user-images.githubusercontent.com/78460496/121309902-b44c0100-c93d-11eb-99f9-4381d7e1eafa.JPG)
+
+
 ![14](https://user-images.githubusercontent.com/78460496/121309903-b4e49780-c93d-11eb-8aa0-d20ea2d90dc4.JPG)
+
+
 ![15](https://user-images.githubusercontent.com/78460496/121309906-b4e49780-c93d-11eb-99d6-38c86398e272.JPG)
 
 
@@ -211,7 +219,10 @@ https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Optiona
 
 (1교시) typescript로 넘어가는 과정!
 
+
 ![1](https://user-images.githubusercontent.com/78460496/121476733-fcccf280-ca01-11eb-87e9-065484a651a0.JPG)
+
+
 객체는 크게보면 3가지 1. 내장객체 -> 사용자 객체포함 --> String, Array, Date(Ajax에서) --> 중첩 사용가능 
 window.loaction.href = " ";
       (내장 객체)(이동)
@@ -221,6 +232,7 @@ window.loaction.href = " ";
 브라우저 문제는 크롬을 무조건 사용해야 한다.
 참조변수(인스턴스변수) = function(){} 레퍼런스 타입은 react같은 경우 적극적으로 사용됨 구조체(체인닝) 
 var tv = new Object -->tv.channel = 10 tv.power = true or false 이런식으로 사용 가능
+
 
 ![2](https://user-images.githubusercontent.com/78460496/121476752-00f91000-ca02-11eb-876a-b63a5f0c24e2.JPG)
 
@@ -255,7 +267,9 @@ body쪽에 script가 있다 하더라도 head쪽으로 끌어올려서 --> 호�
 Template literals : 템플릿 리터럴은 내장된 표현식을 허용하는 문자열 리터럴입니다. 여러 줄로 이뤄진 문자열과 문자 보관기능을 사용할 수 있습니다
 https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Template_literals
 
+
 ![6](https://user-images.githubusercontent.com/78460496/121476810-12421c80-ca02-11eb-8d70-50a033e6e2c5.JPG)
+
 
 
 ![5](https://user-images.githubusercontent.com/78460496/121476834-1837fd80-ca02-11eb-9bba-0fd5203174ca.JPG)
@@ -268,9 +282,15 @@ let color = ["orange", "red", "green", "aqua"]; //배열형태는 [] Object 형�
 getElementById  : 메서드는 주어진 문자열과 일치하는 id 속성을 가진 요소를 찾고, 이를 나타내는 Element 객체를 반환합니다.
 
 
+
+
 ![6](https://user-images.githubusercontent.com/78460496/121116015-dae03e00-c850-11eb-9ba9-59bfcd3f9370.JPG)
--------------------------
+
+
+
 5교시 게시판 만들기
+
+
 ![8](https://user-images.githubusercontent.com/78460496/121476852-1bcb8480-ca02-11eb-905a-564076654751.JPG)
 
 UI/UX  O|X --> UI/UX없이 테스트 할 수 있냐? 없냐? 애매한데? 애매한사람이 제일 나쁜 사람
@@ -294,9 +314,12 @@ insert       S()  Values ()
 http://blog.naver.com/PostView.nhn?blogId=seotaji&logNo=80165579691
 forward와, Redirect 차이를 모르면 공부안한사람 
 
+
 ![9](https://user-images.githubusercontent.com/78460496/121476873-1f5f0b80-ca02-11eb-8465-444bafb97510.JPG)
 
 ![10](https://user-images.githubusercontent.com/78460496/121476884-22f29280-ca02-11eb-85be-7744436cc45a.JPG)
+
+
 6교시
 
 ![11](https://user-images.githubusercontent.com/78460496/121476890-2554ec80-ca02-11eb-96cc-1a588ff1b814.JPG)
@@ -307,7 +330,10 @@ desc board_master2019
 
 desc board_sub2019
 
+
 ![12](https://user-images.githubusercontent.com/78460496/121476911-2c7bfa80-ca02-11eb-8e86-f220e05cadbb.JPG)
+
+
 조회수 그룹번호는 0 Default값 
 
 ------- --> 컬럼수 만큼 있어야지 뭘 물어? 이렇게 안하려면 로직에서 map에다 다 박던지; dao에서 하지말고
@@ -415,8 +441,10 @@ Front Controller xxx.jsp HttpServelt
 
 3교시 
 
+ 
 ![2](https://user-images.githubusercontent.com/78460496/121476668-eaeb4f80-ca01-11eb-8154-ebe09e777fea.JPG)
-![3](https://user-images.githubusercontent.com/78460496/121476641-e4f56e80-ca01-11eb-8220-25938099b9c9.JPG)
+
+ ![3](https://user-images.githubusercontent.com/78460496/121476641-e4f56e80-ca01-11eb-8220-25938099b9c9.JPG)
 
 Dom에 대한 생성, 시점이 우리가 얘기하는  Lifecycle이 연관이 있다. 
 함수는 괄호로 생성하고 세미콜론은 생략하면 된다. 이런것들이 이제 내부에 올 수도 있고 외부에 있는 함수를 호출 할 수 있다.
